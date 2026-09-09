@@ -1,0 +1,13 @@
+{
+  "name": "RIME Genesis Lab",
+  "version": "0.003",
+  "status": "Genesis-oriented prototype",
+  "cycle_accurate": false,
+  "description": "YM2612/SN76489-inspired local renderer paired with a multiscale image-driven composition engine.",
+  "roles": {
+    "bass": "four-operator-inspired FM bass",
+    "harmony": "FM pluck with quiet PSG square shadow",
+    "lead": "brighter four-operator-inspired FM lead",
+    "drums": "kick/snare/toms plus PSG-like filtered noise hats"
+  }
+}
