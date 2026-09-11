@@ -1,0 +1,93 @@
+# RIME default UI profile
+# Captured from the user's approved mobile UI settings on 2026-09-10.
+# This file is intended to be the canonical starting profile for UI v0.10+
+# when using the RIME v0.014 engine baseline.
+
+profile:
+  id: discontent_default_v1
+  name: RIME v0.014 Custom Default
+  ui_version: "0.10.1"
+  engine_version: "0.014"
+  protected_profile: "v0.014"
+  replay_type: rerender
+
+compose:
+  sonic_lock: false
+  mode: custom
+  length_bars: 32
+  variation: 2
+  visual_influence: 3
+  rhythm_strength: 3
+  evolution: 4
+  solar_breakdown: on
+  foreshadow: on
+
+bass_console:
+  behavior: response
+  pedal_intensity: sparse
+  pedal_register: low
+  bass_level:
+    value: 24
+    auto: false
+  bass_depth:
+    value: 85
+    auto: false
+
+pit_v2:
+  mode: on
+  density: 3
+  density_label: active
+  bass_relationship: follow
+  bass_relationship_label: "Follow · bend existing timing"
+  master_influence: 100
+  trigger_sensitivity: 100
+  visual_persistence: 100
+  lane_influence:
+    fm1_bass: 24
+    fm2_lead: 100
+    fm3_harmony: 100
+    psg1_detail: 100
+    psg2_noise: 100
+    pcm_events: 100
+
+transit_compass:
+  mode: on
+  route: b
+  route_label: "B · horizontal counter-read"
+  compass_destination: tension
+  counter_route_source: horizontal_flip
+  route_influence: 100
+  stations: 9
+  stations_label: "9 · detailed line"
+
+route_arc:
+  mode: on
+  opening_mode: signal_boot
+  opening_length_bars: 8
+  terminal_approach: short
+  closing_mode: transmission_loss
+  closing_length_bars: 8
+
+journey_telemetry:
+  show_timeline_after_generation: true
+  station_detail: compact
+
+fx_constellation:
+  mode: on
+  source_universe: horizontal_mirror
+  fx_route: b
+  density: dense
+  discipline: balanced
+  influence: 100
+  levels:
+    filter: high
+    delay: high
+    reverb: high
+    texture: high
+    crush: high
+    stutter: moderate
+    reverse: moderate
+    freeze: moderate
+
+fx_memory:
+  mode: hybrid
