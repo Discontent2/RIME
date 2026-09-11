@@ -1,0 +1,6 @@
+Canonical source tree: RIME engine v0.014 + RIME UI v0.10.2
+Canonical archive: RIME_v0_014_UI_v0_10_2_source.tar.gz
+Archive bytes: 171895
+Archive SHA-256: ad002065dab27e56f6929deac6867a6fca60d04c065a14a10c9132b527d5d357
+Engine code fingerprint: 77bba29abcf3b605d981c9890a8cb8b2b8b6bc269655c1109c6c8348be332e99
+Default profile: presets/default_ui_v0_10.yaml
